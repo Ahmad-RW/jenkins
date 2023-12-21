@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2023-12-21T07:01:30Z"
+  labels:
+    kubernetes.io/metadata.name: devops-tools
+  name: devops-tools
+  resourceVersion: "283699"
+  uid: c2a73867-68ab-4bb2-9a30-7eade1e40e0c
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
